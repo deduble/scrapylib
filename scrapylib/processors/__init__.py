@@ -2,10 +2,10 @@ import datetime
 import locale as localelib
 import re
 import time
-from six.moves.urllib.parse import urljoin
+from urllib.parse import urljoin
 
 
-from scrapy.loader.processors import MapCompose, TakeFirst
+from itemloaders.processors import MapCompose, TakeFirst
 from w3lib.html import (remove_tags, replace_escape_chars,
                                  unquote_markup)
 
